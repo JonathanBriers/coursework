@@ -1,5 +1,7 @@
 Coursework::Application.routes.draw do
   
+  resources :events
+
   root 'static_pages#home'
   match '/join', to: 'static_pages#join', via: 'get'
   match '/about', to: 'static_pages#about', via: 'get'
