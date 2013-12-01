@@ -1,5 +1,9 @@
 @import "bootstrap";
 
+nav {
+  font-size : 13px;
+}
+
 #scrolldiv {
   overflow: auto;
   padding: 20px;
@@ -44,7 +48,7 @@ h2 {
 #logo { 
   float: left;
   margin-right: 10px;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #fff;
   letter-spacing: -1px;
   padding-top: 9px;
